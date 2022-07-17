@@ -1,0 +1,158 @@
+/* < zmienna dla czcionki, niebiski dla podświetlonego linku> */
+
+:root {
+  --main-font:font-family:'Roboto', sans-serif;
+  --secondary-font: font-family: 'Raleway', sans-serif;
+  --main-color: #2196f3;
+}
+
+body{
+    font-family: var(--main-font);
+}
+
+/* <--! <<<<<<<<<<<<<<<<<<< HEATHER >>>>>>>>>>>>>>>>> */
+
+.navigation-logo-web,
+.navigation-logo-studio
+{ 
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    Align:left;
+    vertical-align: top;
+    letter-spacing: 3%;
+    text-decoration:none
+}
+
+.navigation-logo-web{color: #2196F3}
+.navigation-logo-studio{color: #000000}
+
+
+
+.navigation-list-link,
+.address{ 
+Font-family: Roboto;
+Font-style: Medium;
+Font-size: 14px;
+Line-height: 16px;
+Line-height: 100%;
+Align: Left;
+Vertical-align: Top;
+Letter-spacing: 2%;
+color:#212121;
+text-decoration:none;
+}
+
+
+.navigation-list-link:hover,
+.navigation-list:focus,
+.address:hover,
+.address:focus,
+.address:hover,
+.address:focus
+{
+    color: var(--main-color)}
+
+    .address{
+        font-style:normal;
+color:#757575; 
+    }
+
+    .address-phone,
+    .address-mail
+        {text-decoration:none;
+            color: 
+            #757575
+    }
+
+   
+
+/* <!-- <<<<<<<<<<<<<<body>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.title{white-space: pre;
+text-align: center;}
+
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-align: center;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.button-order {
+  background-color: #2196f3;
+  display: block;
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+
+
+.title-script{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+    Align:left;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: 
+    #212121;
+
+}
+.script{text-align: left;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 146%;
+    Align:left;
+    vertical-align: top;
+    letter-spacing: 3%;
+color: #757575;
+;}
+
+.title-branch,
+.title-team
+{text-align: center;
+    font-weight: 700;
+    font-family: Roboto;
+      font-style: Bold;
+      font-size: 36px;
+      line-height: 42px;
+      line-height: 100%;
+      vertical-align: top;
+      letter-spacing: 3%;
+      color: 
+      #212121}
+
+
+.title-team-name{font-family: Roboto;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 42px;
+    line-height: 100%;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: 
+    #212121}
+
+.title-team-job{font-family: Roboto;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color:#757575
+}

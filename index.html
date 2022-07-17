@@ -4,37 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Studio</title>
   </head>
   <body>
-    <div>MAGDA SPRAWDZENIE</div>
-    <header>
-      <a href="index.html">Web<span>Studio</span></a>
+    <header class="header">
+      <a class="navigation-logo-web" href="index.html">Web<span><a class="navigation-logo-studio">Studio</span></a>
 
-      <nav>
-        <ul>
-          <li><span>Agencja</span></li>
-          <li><span>Portfolio</span></li>
-          <li><span>Kontakt</span></li>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <span><a class="navigation-list-link" href="">Agencja</a></span>
+          </li>
+
+          <li class="navigation-list-item">
+            <span>
+              <a class="navigation-list-link" href="portfolio.html"
+                >Portfolio</a
+              ></span
+            >
+          </li>
+          <li class="navigation-list-item">
+            <span> <a class="navigation-list-link" href="">Kontakt</a></span>
+          </li>
         </ul>
       </nav>
+
       <ul>
-        <li><a href="info@devstudio.com">info@devstudio.com </a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li class="address">
+          <a class="address-mail" href="info@devstudio.com"
+            >info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a class="address-phone" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+        <h1 class="title">EFEKTYWNE ROZWIĄZANIA <br>DLA WASZEGO BIZNESU</h1>
+        <button class="button-order" type="button">Zamów usługe</button>
       </div>
 
       <div>
         <ul>
           <li>
-            <h4>LOREM IPSUM</h4>
+            <h4 class="title-script">LOREM IPSUM</h4>
 
-            <pre>
+            <pre class="script">
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Nam vel arcu sem. Sed 
                         non sodales dui. Interdum et malesuada
@@ -43,8 +69,8 @@
           </li>
 
           <li>
-            <h4>LOREM IPSUM</h4>
-            <pre>
+            <h4 class="title-script">LOREM IPSUM</h4>
+            <pre class="script">
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Nam vel arcu sem. Sed 
                         non sodales dui. Interdum et malesuada
@@ -53,8 +79,8 @@
           </li>
 
           <li>
-            <h4>LOREM IPSUM</h4>
-            <pre>
+            <h4 class="title-script">LOREM IPSUM</h4>
+            <pre class="script">
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Nam vel arcu sem. Sed 
                         non sodales dui. Interdum et malesuada
@@ -64,8 +90,8 @@
           </li>
 
           <li>
-            <h4>LOREM IPSUM</h4>
-            <pre>
+            <h4 class="title-script">LOREM IPSUM</h4>
+            <pre class="script">
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Nam vel arcu sem. Sed 
                         non sodales dui. Interdum et malesuada
@@ -75,7 +101,7 @@
         </ul>
       </div>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="title-branch">Czym się zajmujemy</h2>
         <ul>
           <li>
             <a href="">
@@ -111,34 +137,35 @@
       </section>
 
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="title-team">Nasz zespół</h2>
         <ul>
           <li>
             <img src="images/team1.jpg" alt="JD1" width="270" height="260" />
-            <p>John Doe</p>
-            <p>Product Designer</p>
+            <p class="title-team-name">John Doe</p>
+            <p class="title-team-job">Product Designer</p>
           </li>
           <li>
             <img src="images/team2.jpg" alt="JD2" width="270" height="260" />
-            <p>John Doe</p>
-            <p>Frontend Developer</p>
+            <p class="title-team-name">John Doe</p>
+            <p class="title-team-job">Frontend Developer</p>
           </li>
           <li>
             <img src="images/team3.jpg" alt="JD2" width="270" height="260" />
-            <p>John Doe</p>
-            <p>Marketing</p>
+            <p class="title-team-name">John Doe</p>
+            <p class="title-team-job">Marketing</p>
           </li>
           <li>
             <img src="images/team4.jpg" alt="JD2" width="270" height="260" />
-            <p>John Doe</p>
-            <p>UI Designer</p>
+          <li>
+            <p class="title-team-name">John Doe</p>
+            <p class="title-team-job">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
       <div>
-        <address>
+        <address class="address">
           <a href="index.html">Web<span>Studio</span></a>
           <p>m. Warszawa, Aleje Jerozolimskie 21</p>
           <a href="info@example.com">info@example.com</a>
