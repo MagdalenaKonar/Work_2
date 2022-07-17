@@ -13,37 +13,55 @@
     />
     <title>Studio Portfolio</title>
   </head>
-  <body>
-    <header>
-      <a href="index.html">Web<span>Studio</span></a>
+  <body class="body">
+    <header class="header">
+      <a class="navigation-logo-web" href="index.html">Web<span><a class="navigation-logo-studio">Studio</span></a>
 
-      <nav>
-        <ul>
-          <li><span>Agencja</span></li>
-          <li>
-            <span> <a href="portfolio.html">Portfolio</a></span>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <span><a class="navigation-list-link" href="">Agencja</a></span>
           </li>
-          <li><span>Kontakt</span></li>
+
+          <li class="navigation-list-item">
+            <span>
+              <a class="navigation-list-link" href="portfolio.html"
+                >Portfolio</a
+              ></span
+            >
+          </li>
+          <li class="navigation-list-item">
+            <span> <a class="navigation-list-link" href="">Kontakt</a></span>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="info@devstudio.com">info@devstudio.com </a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+
+      <ul class="address-list">
+        <li class="address-header">
+          <a class="address-mail-header" href="info@devstudio.com"
+            >info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a class="address-phone-header" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </li>
       </ul>
     </header>
-
+  
     <main>
-      <ul>
-        <li><button type="button">Wszytskie</button></li>
-        <li><button type="button">Strony</button></li>
-        <li><button type="button">Aplikacje</button></li>
-        <li><button type="button">Dizajn</button></li>
-        <li><button type="button">Marketing</button></li>
+      <ul class="button-filtr">
+        <li><button  class="button-filtr-item" type="button">Wszytskie</button></li>
+        <li><button  class="button-filtr-item"type="button">Strony</button></li>
+        <li><button  class="button-filtr-item"type="button">Aplikacje</button></li>
+        <li><button  class="button-filtr-item"type="button">Dizajn</button></li>
+        <li><button  class="button-filtr-item" type="button">Marketing</button></li>
       </ul>
     </main>
 
-    <div>
-      <ul>
+    <div class="container-filter">
+      <ul class="list-container-filter">
         <li>
           <img
             src="images/portfolio1.jpg"
@@ -51,8 +69,8 @@
             width="370"
             height="294"
           />
-          <p>Technocrack</p>
-          <p>Strona internetowa</p>
+          <p class="filter-projekt-name">Technocrack</p>
+          <p class="filter-projekt">Strona internetowa</p>
         </li>
         <li>
           <img
@@ -61,8 +79,8 @@
             width="370"
             height="294"
           />
-          <p>Grafika New Orlean vs Golden Star</p>
-          <p>Dizajn</p>
+          <p class="filter-projekt-name">Grafika New Orlean vs Golden Star</p>
+          <p class="filter-projekt">Dizajn</p>
         </li>
         <li>
           <img
@@ -71,8 +89,8 @@
             width="370"
             height="294"
           />
-          <p>Restauracja Seafood</p>
-          <p>Aplikacja</p>
+          <p class="filter-projekt-name">Restauracja Seafood</p>
+          <p class="filter-projekt">Aplikacja</p>
         </li>
         <li>
           <img
@@ -81,7 +99,7 @@
             width="370"
             height="294"
           />
-          <p>Projekt Prime</p>
+          <p class="filter-projekt-name">Projekt Prime</p>
           <p>Marketing</p>
         </li>
         <li>
@@ -91,8 +109,8 @@
             width="370"
             height="294"
           />
-          <p>Projekt Boxes</p>
-          <p>Aplikacja</p>
+          <p class="filter-projekt-name">Projekt Boxes</p>
+          <p class="filter-projekt">Aplikacja</p>
         </li>
 
         <li>
@@ -102,8 +120,8 @@
             width="370"
             height="294"
           />
-          <p>Inspiration has no Borders</p>
-          <p>Strona internetowa</p>
+          <p class="filter-projekt-name">Inspiration has no Borders</p>
+          <p class="filter-projekt">Strona internetowa</p>
         </li>
         <li>
           <img
@@ -112,8 +130,8 @@
             width="370"
             height="294"
           />
-          <p>Magazyn Limited Edition</p>
-          <p>Dizajn</p>
+          <p class="filter-projekt-name">Magazyn Limited Edition</p>
+          <p class="filter-projekt">Dizajn</p>
         </li>
         <li>
           <img
@@ -122,8 +140,8 @@
             width="370"
             height="294"
           />
-          <p>Projekt LAB</p>
-          <p>Marketing</p>
+          <p class="filter-projekt-name">Projekt LAB</p>
+          <p class="filter-projekt">Marketing</p>
         </li>
         <li>
           <img
@@ -132,19 +150,19 @@
             width="370"
             height="294"
           />
-          <p>Growing Business</p>
-          <p>Aplikacja</p>
+          <p class="filter-projekt-name">Growing Business</p>
+          <p class="filter-projekt">Aplikacja</p>
         </li>
       </ul>
     </div>
 
     <footer>
       <div>
-        <address>
-          <a href="index.html">Web<span>Studio</span></a>
-          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-          <a href="info@example.com">info@example.com</a>
-          <a href="tel:++48111111111">+48 111 111 111</a>
+        <address class="address-foother">
+          <a class="navigation-logo-web" href="index.html">Web<span><a class="navigation-logo-studio-foother">Studio</span></a>
+          <p class="address-place-foother">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <a  class="address-mail-foother" href="info@example.com">info@example.com</a>
+          <a a class="address-phone-foother" href="tel:++48111111111">+48 111 111 111</a>
         </address>
       </div>
     </footer>

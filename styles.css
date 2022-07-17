@@ -6,9 +6,18 @@
   --main-color: #2196f3;
 }
 
-body{
+.body{
     font-family: var(--main-font);
 }
+
+.navigation-list,
+.address-list,
+.list-script,
+.list-title-branch,
+.list-title-team,
+.button-filtr,
+.list-container-filter
+{list-style-type: none;}
 
 /* <--! <<<<<<<<<<<<<<<<<<< HEATHER >>>>>>>>>>>>>>>>> */
 
@@ -20,11 +29,12 @@ body{
     font-size: 26px;
     line-height: 31px;
     line-height: 100%;
-    Align:left;
+    text-align:left;
     vertical-align: top;
     letter-spacing: 3%;
     text-decoration:none
 }
+
 
 .navigation-logo-web{color: #2196F3}
 .navigation-logo-studio{color: #000000}
@@ -32,13 +42,13 @@ body{
 
 
 .navigation-list-link,
-.address{ 
-Font-family: Roboto;
+.address-header{ 
+font-family: Roboto;
 Font-style: Medium;
 Font-size: 14px;
 Line-height: 16px;
 Line-height: 100%;
-Align: Left;
+text-align: Left;
 Vertical-align: Top;
 Letter-spacing: 2%;
 color:#212121;
@@ -47,21 +57,18 @@ text-decoration:none;
 
 
 .navigation-list-link:hover,
-.navigation-list:focus,
-.address:hover,
-.address:focus,
-.address:hover,
-.address:focus
+.navigation-list-link:focus,
+.address-mail-header:hover,
+.address-mail-header:focus,
+.address-phone-header:hover,
+.address-phone-header:focus
 {
-    color: var(--main-color)}
+    color: var(--main-color);
+cursor:pointer}
 
-    .address{
-        font-style:normal;
-color:#757575; 
-    }
 
-    .address-phone,
-    .address-mail
+    .address-mail-header,
+    .address-phone-header
         {text-decoration:none;
             color: 
             #757575
@@ -71,6 +78,10 @@ color:#757575;
 
 /* <!-- <<<<<<<<<<<<<<body>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+.main{
+    background-color: 
+    #2F303A;
+}
 .title{white-space: pre;
 text-align: center;}
 
@@ -93,30 +104,29 @@ text-align: center;}
   border-radius: 4px;
   color: #ffffff;
   font-size: 16px;
+  cursor: pointer;
 }
 
 
 
 .title-script{
-    font-family: Roboto;
+    
     font-style: Bold;
     font-size: 14px;
     line-height: 16px;
     line-height: 100%;
-    Align:left;
+    text-align:left;
     vertical-align: top;
     letter-spacing: 3%;
-    color: 
-    #212121;
 
 }
 .script{text-align: left;
-    font-family: Roboto;
+  
     font-style: Regular;
     font-size: 14px;
     line-height: 24px;
     line-height: 146%;
-    Align:left;
+    text-align:left;
     vertical-align: top;
     letter-spacing: 3%;
 color: #757575;
@@ -156,3 +166,91 @@ color: #757575;
     letter-spacing: 3%;
     color:#757575
 }
+
+/* <--! <<<<<<<<<<<<<<<<<<< FOOTHER >>>>>>>>>>>>>>>>> */
+
+.address-foother{
+    background-color: #2F303A ;
+}
+.address-foother{font-style: normal;
+font-family: Roboto;}
+
+.address-place-foother{
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 146%;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color:#FFFFFF;
+}
+
+.address-mail-foother,
+.address-phone-foother
+{
+text-decoration: none;
+color:rgba(255, 255, 255, 0.6);
+}
+
+.navigation-logo-studio-foother{
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    text-align:left;
+    vertical-align: top;
+    letter-spacing: 3%;
+    text-decoration:none;
+    color: 
+    #FFFFFF;
+}
+
+/* <--! <<<<<<<<<<<<<<<PORTFOLIO>>>>>>>>>>>>>>>>>>>>
+/* Header jak w index.html> */
+
+/* Main> */
+.button-filtr-item{ background-color: #F5F4FA;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 26px;
+    line-height: 139%;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: #212121;
+    text-align: cent;
+  }
+
+  .button-filtr-item:hover,
+  .button-filtr-item:focus{
+    background-color:#2196F3;
+  color:#FFFFFF;
+  cursor: pointer;
+  }
+
+  /* <--! <<<<<<<<<<<<<<<div obrazki>>>>>>>>>>>>>>>>>>>>
+/*  */
+
+.filter-projekt-name{
+    font-family: roboto;
+    font-style:bold;
+    font-size: 18px;
+    line-height: 36px;
+    line-height: 171%;
+    box-align: left;
+vertical-align: top;
+letter-spacing:6%;
+color:#212121;
+}
+
+.filter-projekt{
+    font-family: roboto;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 30px;
+    line-height: 160%;
+    box-align: left;
+vertical-align:top;
+letter-spacing:3%;
+color:#757575,
+}
+
